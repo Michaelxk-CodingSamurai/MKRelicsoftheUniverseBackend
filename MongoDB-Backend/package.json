@@ -1,0 +1,20 @@
+{
+  "name": "relics-of-the-universe-backend",
+  "version": "1.0.0",
+  "description": "hackathon-project-implementing-backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Michael Ko & Glen Larrabee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongo-morgan": "^2.0.3",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.9.1"
+  }
+}
