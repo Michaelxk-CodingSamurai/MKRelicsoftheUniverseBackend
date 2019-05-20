@@ -27,14 +27,12 @@ const getBlogById = (req, res) => {
             }
         })
 }
-
 const createBlog = (req, res) => {
     let blog = {...req.body}
     Blog.create(blog)
         .then(blogs => res.status(200).json({ blogs }))
         .catch(err => res.status(500).json({ Error }))
 }
-
 const updateBlog = (req, res) => {
     Blog.findByIdAndUpdate(req.params.id, {$set: req.body}, { new: true })
         .exec((err, blog) => {
@@ -47,7 +45,6 @@ const updateBlog = (req, res) => {
             }
         })
 }
-
 const deleteBlog = (req, res) => {
     Blog.findByIdAndDelete(req.params.id)
         .exec((err, blog) => {

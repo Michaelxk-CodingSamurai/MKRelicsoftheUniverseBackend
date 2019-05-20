@@ -1,4 +1,4 @@
-# MK-Relics-Of-The-Universe-Backend
+# MKRelicsOfTheUniverseBackend
 
 ## About
 * Relics of a universe is a blog created in a Hackathon for Astronomy Enthusiasts to share pictures they took of the night sky.
@@ -9,7 +9,7 @@
 2. Use `http://localhost:5000/blogs/seed` to populate database.
 3. Run server.
 
-The front-end application is in my `MK-Relics-Of-The-Universe-Frontend` repository.
+The front-end application is in my `MKRelicsOfTheUniverseFrontend` repository.
 
 ## My Developer Role
 * Created the database with CRUD functions using MongDB and Node.js by contributing the following:
@@ -17,3 +17,6 @@ The front-end application is in my `MK-Relics-Of-The-Universe-Frontend` reposito
 * 2. Created the models and filled the data with information that will be pushed into the app
 * 3. Set up the routes for the controllers in order to implement the HTTP requests.
 * 4. Set up the HTTP requests inside the Controller and created GetAll, GetById, Post, Put, and Delete methods using Postman
+
+##ServerPage
+![ServerPage](https://github.com/Michaelxk-CodingSamurai/MichaelKLandMonkAPI/blob/master/ServerPage.png?raw=true"Title")
