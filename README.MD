@@ -19,4 +19,13 @@ The front-end application is in my `MKRelicsOfTheUniverseFrontend` repository.
 * 4. Set up the HTTP requests inside the Controller and created GetAll, GetById, Post, Put, and Delete methods using Postman
 
 ##ServerPage
-![ServerPage](https://github.com/Michaelxk-CodingSamurai/MichaelKLandMonkAPI/blob/master/ServerPage.png?raw=true"Title")
+![ServerPage](https://github.com/Michaelxk-CodingSamurai/MKRelicsoftheUniverseBackend/blob/master/ServerPage.png?raw=true"Title")
+
+##BlogModel
+![BlogModel](https://github.com/Michaelxk-CodingSamurai/MKRelicsoftheUniverseBackend/blob/master/BlogModel.png?raw=true"Title")
+
+##BlogsRoutes
+![BlogsRoutes](https://github.com/Michaelxk-CodingSamurai/MKRelicsoftheUniverseBackend/blob/master/BlogsRoutes.png?raw=true"Title")
+
+##BlogsController
+![BlogsController](https://github.com/Michaelxk-CodingSamurai/MKRelicsoftheUniverseBackend/blob/master/BlogsController.png?raw=true"Title")
